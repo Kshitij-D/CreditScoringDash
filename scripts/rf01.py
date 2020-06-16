@@ -13,7 +13,7 @@ def run():
         X = df.drop(columns = 14)
         y.value_counts()
         # Split features and target into train and test sets
-        X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=1, stratify=y, test_size = 0.8)
+        X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=1, stratify=y, test_size = 0.2)
         # Instantiate and fit the RandomForestClassifier
         forest = RandomForestClassifier()
         forest.fit(X_train, y_train)

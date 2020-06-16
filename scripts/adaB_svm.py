@@ -19,7 +19,7 @@ def run():
         y.value_counts()
 
         # Split features and target into train and test sets
-        X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=1, stratify=y, test_size = 0.8)
+        X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=1, stratify=y, test_size = 0.2)
 
         #Training with base classifier as svm
         adaB = AdaBoostClassifier(random_state=1, base_estimator=svc)
