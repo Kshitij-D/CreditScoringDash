@@ -8,8 +8,10 @@ Currently Supported Classification Algorithms are
   3.XgBoost
   4.RandomForest
   
-The interface is command-line for now
+The interface is command-line for now(a temporary_gui is also present however is experimental)
 
 ![program_view](/misc/lol11.png)
+
+EXPERIMENTAL_GUI
 ![temp_GUI](/misc/lol12.png)
 
