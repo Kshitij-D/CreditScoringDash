@@ -2,7 +2,7 @@ def run():
         import pandas as pd
         import numpy as np
         import matplotlib.pyplot as plt
-        dataset = pd.read_table("/home/kshitij/PS/data/australian.csv", sep='\s+', header=None)
+        dataset = pd.read_table("./data/australian.csv", sep='\s+', header=None)
         X = dataset.iloc[:, :-1].values
         y = dataset.iloc[:, -1].values
         from sklearn.model_selection import train_test_split

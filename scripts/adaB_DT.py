@@ -7,7 +7,7 @@ def run():
         from sklearn.ensemble import AdaBoostClassifier
         from sklearn.metrics import accuracy_score, confusion_matrix, classification_report, roc_curve, roc_auc_score
 
-        df = pd.read_table("/home/kshitij/PS/data/australian.csv", sep='\s+', header=None)
+        df = pd.read_table("./data/australian.csv", sep='\s+', header=None)
         y = df[14]
         X = df.drop(columns = 14)
         y.value_counts()

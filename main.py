@@ -1,6 +1,5 @@
 #!/usr/bin/env python
-import sys
-sys.path.append('/home/kshitij/PS/scripts/')
+
 from scripts import rf01
 from scripts import xgb01
 from scripts import adaB_svm
