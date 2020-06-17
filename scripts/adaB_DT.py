@@ -13,7 +13,7 @@ def run():
         y.value_counts()
 
         # Split features and target into train and test sets
-        X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=1, stratify=y, test_size = 0.2)
+        X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=1, stratify=y, test_size = 0.4)
 
         #Training with base classifier as decision trees
         adaB = AdaBoostClassifier(random_state=1)
