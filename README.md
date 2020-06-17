@@ -9,3 +9,6 @@ Currently Supported Classification Algorithms are
   4.RandomForest
   
 The interface is command-line for now
+
+![program_view](/misc/lol11.png)
+
