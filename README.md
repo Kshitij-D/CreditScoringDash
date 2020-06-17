@@ -1,18 +1,18 @@
 # CreditScoringDash
-The data is in data folders currently using australian.csv from https://archive.ics.uci.edu/
-The **main.py** is the driver scripts which in turns runs the individual scripts from scripts folder
-THE **app.py** is the driver for the experimental_gui interface
+The data is in data folders currently using australian.csv from https://archive.ics.uci.edu/<br>
+The **main.py** is the driver scripts which in turns runs the individual scripts from scripts folder<br>
+THE **app.py** is the driver for the experimental_gui interface<br>
 
-Currently Supported Classification Algorithms are
-  1.AdaBoost + DT
-  2.AdaBoost + SVM
-  3.XgBoost
-  4.RandomForest
-  
-The interface is command-line for now(a temporary_gui is also present however is experimental)
-![program_view](/misc/lol11.png)
+Currently Supported Classification Algorithms are<br>
+  1.AdaBoost + DT<br>
+  2.AdaBoost + SVM<br>
+  3.XgBoost<br>
+  -4.RandomForest<br>
+  <br>
+The interface is command-line for now(a temporary_gui is also present however is experimental)<br>
+![program_view](/misc/lol11.png)<br>
 
-**EXPERIMENTAL_GUI**
+**EXPERIMENTAL_GUI**<br>
 
 ![temp_GUI](/misc/lol12.png)
 
