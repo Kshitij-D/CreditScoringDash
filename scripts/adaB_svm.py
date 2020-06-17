@@ -5,12 +5,13 @@ def run():
         import pandas as pd
         import matplotlib.pyplot as pyplot
         import seaborn as sns
+        from pathlib import Path
         from sklearn.model_selection import train_test_split
         from sklearn.ensemble import AdaBoostClassifier
         from sklearn.metrics import accuracy_score, confusion_matrix, classification_report, roc_curve, roc_auc_score
-
+        p = Path(".")
         #Reading In The Data
-        df = pd.read_table("/home/kshitij/PS/data/australian.csv", sep='\s+', header=None)
+        df = pd.read_table(p / "data" / "australian.csv", sep='\s+', header=None)
 
         #15th colums is class attribute
 
