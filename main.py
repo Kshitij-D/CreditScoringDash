@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 import sys
 sys.path.append('/home/kshitij/PS/scripts/')
-import rf01
-import xgb01
-import adaB_svm
-import adaB_DT
+from scripts import rf01
+from scripts import xgb01
+from scripts import adaB_svm
+from scripts import adaB_DT
 
 print("Combining Method : Default\n")
 
