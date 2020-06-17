@@ -7,7 +7,7 @@ Currently Supported Classification Algorithms are<br>
   1.AdaBoost + DT<br>
   2.AdaBoost + SVM<br>
   3.XgBoost<br>
-  -4.RandomForest<br>
+  4.RandomForest<br>
   <br>
 The interface is command-line for now(a temporary_gui is also present however is experimental)<br>
 ![program_view](/misc/lol11.png)<br>
