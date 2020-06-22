@@ -12,7 +12,4 @@ Currently Supported Classification Algorithms are<br>
 The interface is command-line for now(a temporary_gui is also present however is experimental)<br>
 ![program_view](/misc/lol11.png)<br>
 
-**EXPERIMENTAL_GUI**<br>
-
-![temp_GUI](/misc/lol12.png)
 
