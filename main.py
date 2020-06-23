@@ -18,6 +18,7 @@ from scripts import V_GNB_eXtc_knn
 from scripts import V_rf_adaB_DT_MLP_GNB
 from scripts import bag_svm
 from scripts import bag_gnb
+from scripts import svm01
 
 print("Combining Method : Default\n")
 
@@ -41,6 +42,7 @@ print("14 : Voting(KNN + GaussianNB + ExtraTrees)")
 print("15 : Voting(Random_Forest + AdaBoostDT + MLP + GNB)")
 print("16 : Bagged Support Vector Machines")
 print("17 : Bagged Gaussian Naive Bayes")
+print("18 : Support Vector Machines")
 
 print("\n")
 
@@ -53,6 +55,10 @@ ans = 0;
 while ans != -1 :
 
     ans = int(input("ENTER_YOUR_SELECTION : \n"))
+    
+    if ans == 18:
+        print("\nSupport Vector Machines : 18")
+        cc = svm01.run()
     
     if ans == 17:
         print("\nBagged Gaussian Naive Bayes : 17")
