@@ -16,6 +16,8 @@ from scripts import S_GNB_MLP_KNN
 from scripts import V_abdt_rf_mlp
 from scripts import V_GNB_eXtc_knn
 from scripts import V_rf_adaB_DT_MLP_GNB
+from scripts import bag_svm
+from scripts import bag_gnb
 
 print("Combining Method : Default\n")
 
@@ -37,10 +39,12 @@ print("12 : Stacked_LogR(GaussianNB + KNN + MLP)")
 print("13 : Voting(AdaBoost_DT + Random_Forest + MLP)")
 print("14 : Voting(KNN + GaussianNB + ExtraTrees)")
 print("15 : Voting(Random_Forest + AdaBoostDT + MLP + GNB)")
+print("16 : Bagged Support Vector Machines")
+print("17 : Bagged Gaussian Naive Bayes")
 
 print("\n")
 
-print("TO_EXIT : -1 \n")
+print("TO_EXIT : -1")
 
 print("\n")
 
@@ -49,6 +53,14 @@ ans = 0;
 while ans != -1 :
 
     ans = int(input("ENTER_YOUR_SELECTION : \n"))
+    
+    if ans == 17:
+        print("\nBagged Gaussian Naive Bayes : 17")
+        cc = bag_gnb.run()
+    
+    if ans == 16:
+        print("\nBagged Support Vector Machines : 16")
+        cc = bag_svm.run()
     
     if ans == 15:
         print("\nVoting(Random_Forest + AdaBoostDT + MLP + GNB) : 15")
